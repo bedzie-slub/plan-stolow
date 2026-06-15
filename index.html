@@ -102,14 +102,22 @@
       color:#333;
       font-family:'Libre Baskerville',serif;
       font-size:16px;
+      text-align:center;
       outline:none;
       box-shadow:0 10px 30px rgba(0,0,0,.22);
       -webkit-appearance:none;
     }
 
-      input::placeholder{
-       text-align:center;
-    }   
+    input::placeholder{
+      text-align:center;
+      color:#777;
+    }
+
+    input::-webkit-input-placeholder{
+      text-align:center;
+      color:#777;
+    }
+
     input:focus{
       border-color:#f0d5a8;
       box-shadow:0 0 0 4px rgba(240,213,168,.25), 0 10px 30px rgba(0,0,0,.22);
